@@ -17,3 +17,4 @@ const App = () => {
 };
 
 export default Profile;
+// export default function App() {} -- to ma być tutaj zamiast tego wyżej??
