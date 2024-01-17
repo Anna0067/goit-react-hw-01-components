@@ -3,6 +3,10 @@ import user from './user.json';
 import Profile from './components/Profile';
 import Statistics from './components/Statistics';
 import styles from './components/Statistics.module.css';
+import FriendList from './components/FriendList';
+import friends from './friends.json';
+import TransactionHistory from './components/TransactionHistory';
+import transactions from './transactions.json';
 
 const App = () => {
   return (
@@ -16,6 +20,12 @@ const App = () => {
       />
       <div className={styles.app}>
         <Statistics title="UPLOAD STATS" stats={data} />
+      </div>
+      <div>
+        <FriendList friends={friends} />
+      </div>
+      <div>
+        <TransactionHistory items={transactions} />
       </div>
     </div>
   );

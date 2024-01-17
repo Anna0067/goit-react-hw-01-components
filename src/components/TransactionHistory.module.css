@@ -1,0 +1,35 @@
+.transaction-history {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  text-align: center;
+  color: #474040;
+}
+
+.transaction-history th,
+.transaction-history td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+  text-align: center;
+}
+
+.transaction-history th {
+  background-color: #42a6f3;
+}
+
+.invoice {
+  color: #2196f3; /* kolor dla faktury */
+}
+
+.payment {
+  color: #4caf50; /* kolor dla płatności */
+}
+
+.withdrawal {
+  color: #f44336; /* kolor dla wypłaty */
+}
+
+.deposit {
+  color: #ffc107; /* kolor dla wpłaty */
+}
